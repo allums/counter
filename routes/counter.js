@@ -7,7 +7,7 @@ let count = 0;
 
 router.route('/')
   .get((req, res)=> {
-    res.json({ count: count });
+    res.json({ count });
   });
 
 module.exports = router;
